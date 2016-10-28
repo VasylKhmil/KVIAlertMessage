@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D2225681DB7788500697478 /* UIView+AddFullsizedSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2225671DB7788500697478 /* UIView+AddFullsizedSubview.swift */; };
+		3D22256B1DB7877B00697478 /* KVIAlertMessageErrorContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D22256A1DB7877B00697478 /* KVIAlertMessageErrorContentView.swift */; };
+		3D22256D1DB7883D00697478 /* KVIAlertMessageMessageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D22256C1DB7883D00697478 /* KVIAlertMessageMessageContentView.swift */; };
+		3D22256F1DB7886200697478 /* KVIAlertMessageSuccessContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D22256E1DB7886200697478 /* KVIAlertMessageSuccessContentView.swift */; };
+		3D2225711DB78D7000697478 /* KVIAlertMessageDefaultContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2225701DB78D7000697478 /* KVIAlertMessageDefaultContainerView.swift */; };
+		3D2225731DB7977C00697478 /* CustomBigErrorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2225721DB7977C00697478 /* CustomBigErrorPresenter.swift */; };
+		3D2225751DB7A00C00697478 /* CustomBigErrorPresenter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D2225741DB7A00C00697478 /* CustomBigErrorPresenter.xib */; };
+		3D22257B1DB8DA1100697478 /* KVIPresentersFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D22257A1DB8DA1100697478 /* KVIPresentersFactory.swift */; };
+		3D22257D1DB8DA6D00697478 /* KVIDefaultPresentersFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D22257C1DB8DA6D00697478 /* KVIDefaultPresentersFactory.swift */; };
+		3D22257F1DB8DF0800697478 /* KVIPresentersContainerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D22257E1DB8DF0800697478 /* KVIPresentersContainerFactory.swift */; };
+		3D2225811DB8F42300697478 /* Sequence+KVIPresentersFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2225801DB8F42300697478 /* Sequence+KVIPresentersFactory.swift */; };
+		3D2225891DBA24DD00697478 /* KVIAlertMessageContentViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2225881DBA24DD00697478 /* KVIAlertMessageContentViewPresenter.swift */; };
+		3D22258B1DBA2C3A00697478 /* KVIAlertMessageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D22258A1DBA2C3A00697478 /* KVIAlertMessageContent.swift */; };
+		3D22258D1DBCD47C00697478 /* KVIAlertMessageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D22258C1DBCD47C00697478 /* KVIAlertMessageContainer.swift */; };
+		3DA4325B1DB69BEF00853F05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA4325A1DB69BEF00853F05 /* AppDelegate.swift */; };
+		3DA4325D1DB69BEF00853F05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA4325C1DB69BEF00853F05 /* ViewController.swift */; };
+		3DA432601DB69BEF00853F05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA4325E1DB69BEF00853F05 /* Main.storyboard */; };
+		3DA432621DB69BEF00853F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA432611DB69BEF00853F05 /* Assets.xcassets */; };
+		3DA432651DB69BEF00853F05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA432631DB69BEF00853F05 /* LaunchScreen.storyboard */; };
+		3DA4327D1DB69C7700853F05 /* KVIAlertMessagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA432731DB69C7700853F05 /* KVIAlertMessagePresenter.swift */; };
+		3DA4327F1DB69C7700853F05 /* KVIAlertMessageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA432751DB69C7700853F05 /* KVIAlertMessageType.swift */; };
+		3DA432971DB6BA0700853F05 /* KVIAlertMessageDefaultContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA432921DB6BA0700853F05 /* KVIAlertMessageDefaultContent.swift */; };
+		3DA432981DB6BA0700853F05 /* KVIAlertMessageContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DA432931DB6BA0700853F05 /* KVIAlertMessageContentView.xib */; };
+		3DA432A01DB6BBCD00853F05 /* KVIAlertMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA4329C1DB6BBCD00853F05 /* KVIAlertMessage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D2225671DB7788500697478 /* UIView+AddFullsizedSubview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AddFullsizedSubview.swift"; sourceTree = "<group>"; };
+		3D22256A1DB7877B00697478 /* KVIAlertMessageErrorContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVIAlertMessageErrorContentView.swift; sourceTree = "<group>"; };
+		3D22256C1DB7883D00697478 /* KVIAlertMessageMessageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVIAlertMessageMessageContentView.swift; sourceTree = "<group>"; };
+		3D22256E1DB7886200697478 /* KVIAlertMessageSuccessContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVIAlertMessageSuccessContentView.swift; sourceTree = "<group>"; };
+		3D2225701DB78D7000697478 /* KVIAlertMessageDefaultContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVIAlertMessageDefaultContainerView.swift; sourceTree = "<group>"; };
+		3D2225721DB7977C00697478 /* CustomBigErrorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBigErrorPresenter.swift; sourceTree = "<group>"; };
+		3D2225741DB7A00C00697478 /* CustomBigErrorPresenter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomBigErrorPresenter.xib; sourceTree = "<group>"; };
+		3D22257A1DB8DA1100697478 /* KVIPresentersFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVIPresentersFactory.swift; sourceTree = "<group>"; };
+		3D22257C1DB8DA6D00697478 /* KVIDefaultPresentersFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVIDefaultPresentersFactory.swift; sourceTree = "<group>"; };
+		3D22257E1DB8DF0800697478 /* KVIPresentersContainerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVIPresentersContainerFactory.swift; sourceTree = "<group>"; };
+		3D2225801DB8F42300697478 /* Sequence+KVIPresentersFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Sequence+KVIPresentersFactory.swift"; sourceTree = "<group>"; };
+		3D2225881DBA24DD00697478 /* KVIAlertMessageContentViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVIAlertMessageContentViewPresenter.swift; sourceTree = "<group>"; };
+		3D22258A1DBA2C3A00697478 /* KVIAlertMessageContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVIAlertMessageContent.swift; sourceTree = "<group>"; };
+		3D22258C1DBCD47C00697478 /* KVIAlertMessageContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVIAlertMessageContainer.swift; sourceTree = "<group>"; };
+		3DA432571DB69BEF00853F05 /* KVIAlertMessageExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVIAlertMessageExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA4325A1DB69BEF00853F05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DA4325C1DB69BEF00853F05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DA4325F1DB69BEF00853F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DA432611DB69BEF00853F05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DA432641DB69BEF00853F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DA432661DB69BEF00853F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA432731DB69C7700853F05 /* KVIAlertMessagePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVIAlertMessagePresenter.swift; sourceTree = "<group>"; };
+		3DA432751DB69C7700853F05 /* KVIAlertMessageType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVIAlertMessageType.swift; sourceTree = "<group>"; };
+		3DA432921DB6BA0700853F05 /* KVIAlertMessageDefaultContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVIAlertMessageDefaultContent.swift; sourceTree = "<group>"; };
+		3DA432931DB6BA0700853F05 /* KVIAlertMessageContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVIAlertMessageContentView.xib; sourceTree = "<group>"; };
+		3DA4329C1DB6BBCD00853F05 /* KVIAlertMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVIAlertMessage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DA432541DB69BEF00853F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D2225691DB7796F00697478 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3D2225671DB7788500697478 /* UIView+AddFullsizedSubview.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		3D2225761DB7A01600697478 /* CustomBigErrorPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				3D2225721DB7977C00697478 /* CustomBigErrorPresenter.swift */,
+				3D2225741DB7A00C00697478 /* CustomBigErrorPresenter.xib */,
+			);
+			name = CustomBigErrorPresenter;
+			sourceTree = "<group>";
+		};
+		3D2225791DB8D9F500697478 /* PresentersFactory */ = {
+			isa = PBXGroup;
+			children = (
+				3D22257C1DB8DA6D00697478 /* KVIDefaultPresentersFactory.swift */,
+				3D22257E1DB8DF0800697478 /* KVIPresentersContainerFactory.swift */,
+				3D2225801DB8F42300697478 /* Sequence+KVIPresentersFactory.swift */,
+			);
+			name = PresentersFactory;
+			sourceTree = "<group>";
+		};
+		3D2225821DB8FBF900697478 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3DA4325E1DB69BEF00853F05 /* Main.storyboard */,
+				3DA432611DB69BEF00853F05 /* Assets.xcassets */,
+				3DA432631DB69BEF00853F05 /* LaunchScreen.storyboard */,
+				3DA432661DB69BEF00853F05 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3D2225831DB8FC0600697478 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3DA4325A1DB69BEF00853F05 /* AppDelegate.swift */,
+				3DA4325C1DB69BEF00853F05 /* ViewController.swift */,
+				3D2225761DB7A01600697478 /* CustomBigErrorPresenter */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		3D22258E1DBCDBD800697478 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				3DA432731DB69C7700853F05 /* KVIAlertMessagePresenter.swift */,
+				3D22258A1DBA2C3A00697478 /* KVIAlertMessageContent.swift */,
+				3D22258C1DBCD47C00697478 /* KVIAlertMessageContainer.swift */,
+				3D22257A1DB8DA1100697478 /* KVIPresentersFactory.swift */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		3D22258F1DBCDE5300697478 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				3D2225701DB78D7000697478 /* KVIAlertMessageDefaultContainerView.swift */,
+				3DA432921DB6BA0700853F05 /* KVIAlertMessageDefaultContent.swift */,
+				3D2225791DB8D9F500697478 /* PresentersFactory */,
+				3DA432821DB6A0E600853F05 /* KVIAlertMessageContentView */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		3DA4324E1DB69BEF00853F05 = {
+			isa = PBXGroup;
+			children = (
+				3DA432591DB69BEF00853F05 /* KVIAlertMessageExample */,
+				3DA432581DB69BEF00853F05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DA432581DB69BEF00853F05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DA432571DB69BEF00853F05 /* KVIAlertMessageExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DA432591DB69BEF00853F05 /* KVIAlertMessageExample */ = {
+			isa = PBXGroup;
+			children = (
+				3DA4326C1DB69C7700853F05 /* KVIAlertMessage */,
+				3D2225831DB8FC0600697478 /* Application */,
+				3D2225821DB8FBF900697478 /* Resources */,
+			);
+			path = KVIAlertMessageExample;
+			sourceTree = "<group>";
+		};
+		3DA4326C1DB69C7700853F05 /* KVIAlertMessage */ = {
+			isa = PBXGroup;
+			children = (
+				3DA4329C1DB6BBCD00853F05 /* KVIAlertMessage.swift */,
+				3DA432751DB69C7700853F05 /* KVIAlertMessageType.swift */,
+				3D22258E1DBCDBD800697478 /* Interface */,
+				3D22258F1DBCDE5300697478 /* Default */,
+				3D2225691DB7796F00697478 /* Extensions */,
+			);
+			path = KVIAlertMessage;
+			sourceTree = "<group>";
+		};
+		3DA432821DB6A0E600853F05 /* KVIAlertMessageContentView */ = {
+			isa = PBXGroup;
+			children = (
+				3D2225881DBA24DD00697478 /* KVIAlertMessageContentViewPresenter.swift */,
+				3D22256A1DB7877B00697478 /* KVIAlertMessageErrorContentView.swift */,
+				3D22256C1DB7883D00697478 /* KVIAlertMessageMessageContentView.swift */,
+				3D22256E1DB7886200697478 /* KVIAlertMessageSuccessContentView.swift */,
+				3DA432931DB6BA0700853F05 /* KVIAlertMessageContentView.xib */,
+			);
+			name = KVIAlertMessageContentView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DA432561DB69BEF00853F05 /* KVIAlertMessageExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA432691DB69BEF00853F05 /* Build configuration list for PBXNativeTarget "KVIAlertMessageExample" */;
+			buildPhases = (
+				3DA432531DB69BEF00853F05 /* Sources */,
+				3DA432541DB69BEF00853F05 /* Frameworks */,
+				3DA432551DB69BEF00853F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVIAlertMessageExample;
+			productName = KVIAlertMessageExample;
+			productReference = 3DA432571DB69BEF00853F05 /* KVIAlertMessageExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DA4324F1DB69BEF00853F05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Vasyl Khmil";
+				TargetAttributes = {
+					3DA432561DB69BEF00853F05 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J6L4QH59CC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3DA432521DB69BEF00853F05 /* Build configuration list for PBXProject "KVIAlertMessageExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DA4324E1DB69BEF00853F05;
+			productRefGroup = 3DA432581DB69BEF00853F05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DA432561DB69BEF00853F05 /* KVIAlertMessageExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DA432551DB69BEF00853F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA432981DB6BA0700853F05 /* KVIAlertMessageContentView.xib in Resources */,
+				3DA432651DB69BEF00853F05 /* LaunchScreen.storyboard in Resources */,
+				3D2225751DB7A00C00697478 /* CustomBigErrorPresenter.xib in Resources */,
+				3DA432621DB69BEF00853F05 /* Assets.xcassets in Resources */,
+				3DA432601DB69BEF00853F05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DA432531DB69BEF00853F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D22256D1DB7883D00697478 /* KVIAlertMessageMessageContentView.swift in Sources */,
+				3D22257D1DB8DA6D00697478 /* KVIDefaultPresentersFactory.swift in Sources */,
+				3DA432971DB6BA0700853F05 /* KVIAlertMessageDefaultContent.swift in Sources */,
+				3DA4327D1DB69C7700853F05 /* KVIAlertMessagePresenter.swift in Sources */,
+				3DA432A01DB6BBCD00853F05 /* KVIAlertMessage.swift in Sources */,
+				3D22256B1DB7877B00697478 /* KVIAlertMessageErrorContentView.swift in Sources */,
+				3D22257B1DB8DA1100697478 /* KVIPresentersFactory.swift in Sources */,
+				3D22256F1DB7886200697478 /* KVIAlertMessageSuccessContentView.swift in Sources */,
+				3DA4325D1DB69BEF00853F05 /* ViewController.swift in Sources */,
+				3D2225731DB7977C00697478 /* CustomBigErrorPresenter.swift in Sources */,
+				3DA4325B1DB69BEF00853F05 /* AppDelegate.swift in Sources */,
+				3D2225681DB7788500697478 /* UIView+AddFullsizedSubview.swift in Sources */,
+				3D22258B1DBA2C3A00697478 /* KVIAlertMessageContent.swift in Sources */,
+				3D2225891DBA24DD00697478 /* KVIAlertMessageContentViewPresenter.swift in Sources */,
+				3DA4327F1DB69C7700853F05 /* KVIAlertMessageType.swift in Sources */,
+				3D22258D1DBCD47C00697478 /* KVIAlertMessageContainer.swift in Sources */,
+				3D22257F1DB8DF0800697478 /* KVIPresentersContainerFactory.swift in Sources */,
+				3D2225811DB8F42300697478 /* Sequence+KVIPresentersFactory.swift in Sources */,
+				3D2225711DB78D7000697478 /* KVIAlertMessageDefaultContainerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3DA4325E1DB69BEF00853F05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DA4325F1DB69BEF00853F05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DA432631DB69BEF00853F05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DA432641DB69BEF00853F05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DA432671DB69BEF00853F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DA432681DB69BEF00853F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DA4326A1DB69BEF00853F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J6L4QH59CC;
+				INFOPLIST_FILE = KVIAlertMessageExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vkhmil.KVIAlertMessageExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3DA4326B1DB69BEF00853F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J6L4QH59CC;
+				INFOPLIST_FILE = KVIAlertMessageExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vkhmil.KVIAlertMessageExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DA432521DB69BEF00853F05 /* Build configuration list for PBXProject "KVIAlertMessageExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA432671DB69BEF00853F05 /* Debug */,
+				3DA432681DB69BEF00853F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA432691DB69BEF00853F05 /* Build configuration list for PBXNativeTarget "KVIAlertMessageExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA4326A1DB69BEF00853F05 /* Debug */,
+				3DA4326B1DB69BEF00853F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DA4324F1DB69BEF00853F05 /* Project object */;
+}

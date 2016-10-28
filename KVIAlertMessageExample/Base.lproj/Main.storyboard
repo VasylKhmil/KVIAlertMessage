@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KVIAlertMessageExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lkm-75-EnM">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Show default message">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showDefaultAlertMessagePressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="zyL-Em-MsN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DSE-zY-axg">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Show default error">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showDefaultAlertErrorPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="mtB-FX-WAS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2iP-hq-5Fz">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Show default success">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showDefaultAlertSuccessPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="T12-eX-4UO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PkM-7t-RCV">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Show default without subtitle">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showDefaultAlertWithNoSubtitle" destination="BYZ-38-t0r" eventType="touchUpInside" id="sNf-kV-uCL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dab-dv-lAS">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Showcustom big error">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showCustomBigErrorPresenterPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="AK3-7l-ql1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2iP-hq-5Fz" firstAttribute="top" secondItem="DSE-zY-axg" secondAttribute="bottom" id="2Qf-4E-Va5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DSE-zY-axg" secondAttribute="trailing" id="5J2-xB-JiH"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="2iP-hq-5Fz" secondAttribute="leading" id="89H-3Y-m1U"/>
+                            <constraint firstItem="DSE-zY-axg" firstAttribute="top" secondItem="Lkm-75-EnM" secondAttribute="bottom" id="CEd-Pb-88n"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="DSE-zY-axg" secondAttribute="leading" id="LLb-Hn-k4D"/>
+                            <constraint firstItem="PkM-7t-RCV" firstAttribute="top" secondItem="2iP-hq-5Fz" secondAttribute="bottom" id="OuP-xk-NzU"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="PkM-7t-RCV" secondAttribute="leading" id="WOH-Az-3HX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2iP-hq-5Fz" secondAttribute="trailing" id="YEt-F9-3pk"/>
+                            <constraint firstItem="Lkm-75-EnM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="cms-I2-ark"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PkM-7t-RCV" secondAttribute="trailing" id="dCh-0C-oUF"/>
+                            <constraint firstItem="Lkm-75-EnM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="150" id="fdM-Gg-vjG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Lkm-75-EnM" secondAttribute="trailing" id="n4K-Xj-V37"/>
+                            <constraint firstItem="dab-dv-lAS" firstAttribute="top" secondItem="PkM-7t-RCV" secondAttribute="bottom" id="tGq-vU-RBy"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="dab-dv-lAS" secondAttribute="leading" id="tlC-qV-Lka"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dab-dv-lAS" secondAttribute="trailing" id="yEz-Oi-d92"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="107.49625187406298"/>
+        </scene>
+    </scenes>
+</document>

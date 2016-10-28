@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KVIAlertMessageContentView" customModule="KVIAlertMessageExample" customModuleProvider="target">
+            <connections>
+                <outlet property="messageLabel" destination="Tkn-bW-rIO" id="d9s-GM-P8Q"/>
+                <outlet property="titleLabel" destination="TpL-80-AiX" id="2dn-Mr-fKS"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="tVO-tk-gM8">
+            <rect key="frame" x="0.0" y="0.0" width="398" height="166"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="241" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tkn-bW-rIO">
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TpL-80-AiX">
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Tkn-bW-rIO" secondAttribute="trailing" constant="20" id="HtI-vm-RfD"/>
+                <constraint firstAttribute="bottom" secondItem="Tkn-bW-rIO" secondAttribute="bottom" constant="10" id="J1Y-Jt-18h"/>
+                <constraint firstAttribute="trailing" secondItem="TpL-80-AiX" secondAttribute="trailing" constant="20" id="JvF-tZ-PLe"/>
+                <constraint firstAttribute="bottom" secondItem="Tkn-bW-rIO" secondAttribute="bottom" constant="10" id="VnM-zZ-MQX"/>
+                <constraint firstItem="Tkn-bW-rIO" firstAttribute="top" secondItem="TpL-80-AiX" secondAttribute="bottom" constant="8" id="aHT-a8-lGO"/>
+                <constraint firstItem="Tkn-bW-rIO" firstAttribute="leading" secondItem="tVO-tk-gM8" secondAttribute="leading" constant="20" id="aQC-QD-sL2"/>
+                <constraint firstItem="TpL-80-AiX" firstAttribute="leading" secondItem="tVO-tk-gM8" secondAttribute="leading" constant="20" id="aZd-fk-8yC"/>
+                <constraint firstItem="Tkn-bW-rIO" firstAttribute="top" secondItem="tVO-tk-gM8" secondAttribute="top" constant="40" id="b40-t9-Mi9"/>
+                <constraint firstItem="TpL-80-AiX" firstAttribute="top" secondItem="tVO-tk-gM8" secondAttribute="top" constant="40" id="xqG-Mz-ZxC"/>
+                <constraint firstAttribute="bottom" secondItem="Tkn-bW-rIO" secondAttribute="bottom" constant="20" id="xqS-6O-FqL"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="J1Y-Jt-18h"/>
+                    <exclude reference="b40-t9-Mi9"/>
+                    <exclude reference="xqS-6O-FqL"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="364" y="196"/>
+        </view>
+    </objects>
+</document>
