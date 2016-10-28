@@ -62,7 +62,7 @@ class KVIAlertMessageDefaultContent: UIView, KVIAlertMessageContent {
     
     func hide() {
         
-        self.alpha = 1
+        self.alpha = 0
         
         self.transform = CGAffineTransform.identity.translatedBy(x: 0, y: -self.bounds.height)
     }
