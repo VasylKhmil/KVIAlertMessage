@@ -22,12 +22,12 @@ class KVIAlertMessageContentViewPresenter<T>: KVIAlertMessagePresenter where T: 
     
     func present(in view: UIView) {
         
-        self.viewContainer.frame = view.bounds
+        view.add(fullsizedSubview: self.viewContainer)
+    
+        self.viewContainer.layoutIfNeeded()
         
         self.viewContainer.hide()
-        
-        view.add(fullsizedSubview: self.viewContainer)
-        
+    
         UIView.animate(withDuration: 0.3, animations: self.viewContainer.show)
         
         self.setupDismissTimer()
