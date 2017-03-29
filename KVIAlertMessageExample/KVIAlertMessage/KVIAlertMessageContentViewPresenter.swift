@@ -8,6 +8,21 @@
 
 import UIKit
 
+class TapResponder {
+    let action  : () -> Void
+    
+    init(view: UIView, action: @escaping () -> Void) {
+        self.action = action
+        
+        let gesture = UITapGestureRecognizer(target: self, action: #selector(TapResponder.tapped))
+        view.addGestureRecognizer(gesture)
+    }
+    
+    @objc private func tapped() {
+        self.action()
+    }
+}
+
 class KVIAlertMessageContentViewPresenter<T>: KVIAlertMessagePresenter where T: UIView, T: KVIAlertMessageContent {
     
     var content: KVIAlertMessageContent {
@@ -15,12 +30,17 @@ class KVIAlertMessageContentViewPresenter<T>: KVIAlertMessagePresenter where T: 
     }
     
     private let viewContainer: T
+    private var tapResponder: TapResponder?
     
     var finishAction: (() -> Void)?
     
     fileprivate var timer: Timer?
     
     func present(in view: UIView) {
+        
+        self.tapResponder = TapResponder(view: viewContainer, action: {
+            self.dismiss()
+        })
         
         view.add(fullsizedSubview: self.viewContainer)
     
@@ -38,7 +58,6 @@ class KVIAlertMessageContentViewPresenter<T>: KVIAlertMessagePresenter where T: 
     }
     
     private func dismiss() {
-        
         self.dismiss(with: self.finishAction)
     }
     

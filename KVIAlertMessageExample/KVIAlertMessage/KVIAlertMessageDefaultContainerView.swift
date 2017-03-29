@@ -31,7 +31,6 @@ extension KVIAlertMessageDefaultContainerView {
     func setupIfNeed() {
         
         if !self.isSetupped {
-            
             self.setup()
         }
     }
